@@ -11,12 +11,12 @@
         <h1>
             Roman Numeral Converter
         </h1>
-        <form action="" id="form" class="form">
+        <form action="" id="form" class="form" onsubmit="event.preventDefault()">
             <fieldset>
                 <label for="number">Enter a number:</label>
                 <br>
                 <input type="number" name="number" id="number" required>
-                <button type="button" id="convert-button">
+                <button type="button" id="convert-btn">
                     Convert
                 </button>
             </fieldset>
