@@ -24,6 +24,8 @@ const displayRoman = ()=>{
 }
 
 convertButton.addEventListener('click',displayRoman)
+
+
 numInput.addEventListener('keydown',(e)=>{
     if (e.key==="Enter") {
         displayRoman()
@@ -31,7 +33,7 @@ numInput.addEventListener('keydown',(e)=>{
     }
 } )
 
-function convertToRoman(num) {
+const convertToRoman = (num)=> {
   let roman = ""
   while (num > 0) {
     if (num >=1000){
